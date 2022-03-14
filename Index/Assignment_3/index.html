@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <form name="casio" id="casio">
         <div class="block">
             <label for="html">Num1</label>
             <input type="text" name="value1">
@@ -22,12 +23,13 @@
             <input type="text" name="value3" disabled>
         </div>
         <div class="symbol">
-            <input type="button" value="+" name="op1">
-            <input type="button" value="-" name="op2">
-            <input type="button" value="x" name="op3">
-            <input type="button" value="/" name="op3">
+            <input type="button" value="+" name="op1" onclick="addition()">
+            <input type="button" value="-" name="op2" onclick="subtraction()">
+            <input type="button" value="x" name="op3" onclick="multiplication()">
+            <input type="button" value="/" name="op3" onclick="division()">
         </div>
-        
+        </form>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
