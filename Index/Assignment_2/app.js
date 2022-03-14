@@ -10,6 +10,7 @@ btnDec.addEventListener("click", function(){
     }
 })
 btnReset.addEventListener("click", function(){
+    count=0;
     value.textContent=0;
     value.style.color = "black";
 })
