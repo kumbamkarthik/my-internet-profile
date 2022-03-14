@@ -1,3 +1,2 @@
 # This is my profile for internet/website
-   - learning gihub
-   - hosting a website
+   -Assignment1 Updated
