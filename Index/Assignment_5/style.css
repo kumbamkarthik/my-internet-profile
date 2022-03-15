@@ -1,0 +1,29 @@
+.menu-title{
+    margin-top: 5rem;
+}
+.menu-title span{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 10%;
+    color: black;
+    border-bottom: 5px solid burlywood;
+}
+.menu-title{
+    text-align: center; 
+}
+.catagories ul li{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    color: burlywood;
+    background-color: white;
+    list-style-type: none;
+}
+.catagories ul{
+    display: flex;
+    justify-content: center;
+}
+
+
