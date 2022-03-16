@@ -112,6 +112,7 @@ menu.forEach(m => {
     m.addEventListener('click', e =>{
         console.log(e.target.innerHTML);
         foodbox.forEach(box =>{
+
             box.style.display = "none";
             if(e.target.innerHTML==='All'){
                 box.style.display = "block";
@@ -148,4 +149,44 @@ menu.forEach(m => {
             }
         })
     })
+})
+const ele1 = document.querySelector(".l1");
+const ele2 = document.querySelector(".l2");
+const ele3 = document.querySelector(".l3");
+const ele4 = document.querySelector(".l4");
+const ele5 = document.querySelector(".l5");
+ele1.addEventListener("click",function(){
+    ele1.style.borderColor="brown";
+    ele2.style.borderColor="burlywood";
+    ele3.style.borderColor="burlywood";
+    ele4.style.borderColor="burlywood";
+    ele5.style.borderColor="burlywood";
+})
+ele2.addEventListener("click",function(){
+    ele1.style.borderColor="burlywood";
+    ele2.style.borderColor="brown";
+    ele3.style.borderColor="burlywood";
+    ele4.style.borderColor="burlywood";
+    ele5.style.borderColor="burlywood";
+})
+ele3.addEventListener("click",function(){
+    ele1.style.borderColor="burlywood";
+    ele2.style.borderColor="burlywood";
+    ele3.style.borderColor="brown";
+    ele4.style.borderColor="burlywood";
+    ele5.style.borderColor="burlywood";
+})
+ele4.addEventListener("click",function(){
+    ele1.style.borderColor="burlywood";
+    ele2.style.borderColor="burlywood";
+    ele3.style.borderColor="burlywood";
+    ele4.style.borderColor="brown";
+    ele5.style.borderColor="burlywood";
+})
+ele5.addEventListener("click",function(){
+    ele1.style.borderColor="burlywood";
+    ele2.style.borderColor="burlywood";
+    ele3.style.borderColor="burlywood";
+    ele4.style.borderColor="burlywood";
+    ele5.style.borderColor="brown";
 })
