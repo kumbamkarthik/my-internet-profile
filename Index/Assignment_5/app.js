@@ -162,6 +162,7 @@ ele1.addEventListener("click",function(){
     ele4.style.borderColor="burlywood";
     ele5.style.borderColor="burlywood";
 })
+ele1.style.borderColor="brown";
 ele2.addEventListener("click",function(){
     ele1.style.borderColor="burlywood";
     ele2.style.borderColor="brown";

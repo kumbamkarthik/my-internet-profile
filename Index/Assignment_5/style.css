@@ -27,6 +27,10 @@
     background-color: white;
     list-style-type: none;
 }
+.ll:hover {
+    background-color: burlywood;
+    color: white;
+}
 .catagories ul{
     display: flex;
     justify-content: center;
