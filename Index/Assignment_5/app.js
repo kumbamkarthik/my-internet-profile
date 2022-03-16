@@ -1,11 +1,25 @@
 let foodContainer = document.querySelector('.food-container');
 const fooditem=[
+        {
+        FoodName: "Chocolate Lava Cake",
+        foodimg: './Images/Image12.jpg',
+        price: 'RS 125/-',
+        type: "Deserts",
+        des: "Chocolate Lava Crunch Cakes are baked in our ovens to give them a slightly crunchy, chocolatey crust."
+    },
     {
-    FoodName: "Idly",
-    foodimg: './Images/Image1.jpg',
-    price: 'RS 35/-',
-    type: "breakFast",
-    des: "A type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka."
+        FoodName: "Milk Shake",
+        foodimg: './Images/Image9.jpg',
+        price: 'RS 155/-',
+        type: "Shakes",
+        des: "A cold drink made of milk, a sweet flavouring such as fruit or chocolate, and typically ice cream, whisked until it is frothy."
+    },
+    {
+        FoodName: "Chicken Biryani",
+        foodimg: './Images/Image6.jpg',
+        price: 'RS 380/-',
+        type: "Lunch",
+        des: "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together."
     },
     {
         FoodName: "Dosa",
@@ -15,12 +29,12 @@ const fooditem=[
         des: "A dosa is a thin flat bread originating from South India, made from a fermented batter predominantly consisting of lentils and rice"
     },
     {
-        FoodName: "Vada",
-        foodimg: './Images/Image3.jpg',
-        price: 'RS 40/-',
+        FoodName: "Idly",
+        foodimg: './Images/Image1.jpg',
+        price: 'RS 35/-',
         type: "breakFast",
-        des: "Vadas are really delicious when the outer casings are crispy crackling and soft spongy inside with hardly any traces of oil smell or greasy taste."
-    },
+        des: "A type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka."
+        },
     {
         FoodName: "Poha",
         foodimg: './Images/Image4.jpg',
@@ -36,39 +50,11 @@ const fooditem=[
         des: "Vegetable biryani is an aromatic rice dish made with basmati rice, mix veggies, herbs & biryani spices."
     },
     {
-        FoodName: "Chicken Biryani",
-        foodimg: './Images/Image6.jpg',
-        price: 'RS 380/-',
-        type: "Lunch",
-        des: "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together."
-    },
-    {
         FoodName: "Lemon Rice",
         foodimg: './Images/Image7.jpg',
         price: 'RS 190/-',
         type: "Lunch",
         des: "This is an easy to make dish and the benefits of ingredients like asafoetida and turmeric are immense."
-    },
-    {
-        FoodName: "Tomato Rice",
-        foodimg: './Images/Image8.jpg',
-        price: 'RS 195/-',
-        type: "Lunch",
-        des: "Tomato rice is made using tomatoes alone and no vegetables are used except onion."
-    },
-    {
-        FoodName: "Milk Shake",
-        foodimg: './Images/Image9.jpg',
-        price: 'RS 155/-',
-        type: "Shakes",
-        des: "A cold drink made of milk, a sweet flavouring such as fruit or chocolate, and typically ice cream, whisked until it is frothy."
-    },
-    {
-        FoodName: "Thick Shake",
-        foodimg: './Images/Image10.jpg',
-        price: 'RS 185/-',
-        type: "Shakes",
-        des: "Thickshake is a heart-stealer. Nutella joins the club in the choco category."
     },
     {
         FoodName: "Apricot Delight",
@@ -78,11 +64,25 @@ const fooditem=[
         des: "A rectangular soft fruit chew made from Apricots & sugar."
     },
     {
-        FoodName: "Chocolate Lava Cake",
-        foodimg: './Images/Image12.jpg',
-        price: 'RS 125/-',
-        type: "Deserts",
-        des: "Chocolate Lava Crunch Cakes are baked in our ovens to give them a slightly crunchy, chocolatey crust."
+        FoodName: "Vada",
+        foodimg: './Images/Image3.jpg',
+        price: 'RS 40/-',
+        type: "breakFast",
+        des: "Vadas are really delicious when the outer casings are crispy crackling and soft spongy inside with hardly any traces of oil smell or greasy taste."
+    },
+    {
+        FoodName: "Tomato Rice",
+        foodimg: './Images/Image8.jpg',
+        price: 'RS 195/-',
+        type: "Lunch",
+        des: "Tomato rice is made using tomatoes alone and no vegetables are used except onion."
+    },
+    {
+        FoodName: "Thick Shake",
+        foodimg: './Images/Image10.jpg',
+        price: 'RS 185/-',
+        type: "Shakes",
+        des: "Thickshake is a heart-stealer. Nutella joins the club in the choco category."
     }
 ]
 console.log(fooditem);
