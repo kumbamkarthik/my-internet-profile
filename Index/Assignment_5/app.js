@@ -112,7 +112,6 @@ menu.forEach(m => {
     m.addEventListener('click', e =>{
         console.log(e.target.innerHTML);
         foodbox.forEach(box =>{
-            box.classList.add('d-none');
             box.style.display = "none";
             if(e.target.innerHTML==='All'){
                 box.style.display = "block";
